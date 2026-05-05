@@ -1,0 +1,14 @@
+{
+  "name": "my-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "android": "npm run android --workspace=demoapp",
+    "ios": "npm run ios --workspace=demoapp",
+    "start": "npm run start --workspace=demoapp"
+  }
+}
