@@ -9,6 +9,7 @@
   "scripts": {
     "android": "npm run android --workspace=demoapp",
     "ios": "npm run ios --workspace=demoapp",
+    "ios:pod": "npm run ios:pod --workspace=demoapp",
     "start": "npm run start --workspace=demoapp"
   }
 }
