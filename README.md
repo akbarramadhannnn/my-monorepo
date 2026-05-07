@@ -1,3 +1,7 @@
+## my-monorepo
+
+>**Note**: All third-party library installations must be executed exclusively from the **root project directory**. This practice is mandatory to maintain the integrity of the **NPM Workspaces** architecture, ensuring that dependencies are correctly hoisted and managed via a single global ```package-lock.json```.
+
 ## Getting Started
 
 - Clone the repository to your local machine:
